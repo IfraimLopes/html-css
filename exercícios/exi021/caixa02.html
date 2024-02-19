@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+            
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10PX;
+            text-align: center;
+            
+            
+        }
+
+
+        nav{
+            background-color:  rgb(87, 87, 87);
+            text-decoration: none;
+            padding: 8px;
+            margin: 7px;
+            box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.301);
+        }
+        nav > a{
+            color: white;
+            text-decoration: none;
+            font-weight: bolder;
+            margin-left: 4px;
+           
+            
+        }
+        nav > a:hover{
+            color: blue;
+            text-decoration: underline;
+        }
+        nav > a:visited{
+           color: red;
+        }
+        nav > a:active{
+            color: yellow;
+        }
+        article{
+            background-color: rgb(192, 191, 191);
+            border-radius: 10px;
+            text-indent: 10px;
+            box-shadow: 4px 7px 9px rgba(0, 0, 0, 0.377);
+            
+        }
+       article > aside{
+        background-color: rgb(117, 117, 117);
+        font-size: 13px;
+        font-family: 'Times New Roman', Times, serif;
+        border-radius: 10px;
+        text-indent: 10px;
+
+       }
+
+        main{
+            background-color: rgb(252, 247, 247);
+            padding: 10px;
+            margin: 10PX;
+            border-radius: 20px 0px;
+            box-shadow: 13px 9px 18px rgba(0, 0, 0, 0.377);
+        }
+
+        footer{
+            background-color: black;
+            padding: 16px;
+            text-align: center;
+            padding: 4px;
+            margin: 0px; 
+        }
+
+        footer > p{
+            margin: 0px;
+        }
+
+        
+       #rodape{
+        color: white;
+        text-decoration: none;
+       }
+       
+       #bola{
+        margin: auto;
+        background-color: white;
+        width: 100px;
+        height: 100px;
+        border-radius: 50px;
+        
+      
+       }
+      
+    </style>
+</head>
+<body>
+    <header>
+     <h1>Meu Site</h1>
+     <nav>  
+             <a href="#">link</a>
+             <a href="#">link</a>
+             <a href="#">link</a>
+             <a href="#">link</a>
+    </nav>
+  
+    </header>
+
+    <main>
+      <section id="Assuntos">
+       
+
+      </section>
+     
+      <section id="Noticias">
+        <article>
+                <h2>Notícia Sobre Angola</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus explicabo quas omnis voluptatem repudiandae cupiditate exercitationem quo excepturi magnam, pariatur dignissimos totam cumque? Laboriosam dolore natus minus. Porro, repellendus voluptatem.</p>
+                <aside>
+                    <p>Escrito Por Ifraim Lopes</p>
+                </aside>
+
+        </article>
+      </section>
+
+    </main>
+
+    <footer>
+            <a href="" id="rodape">Site Desenvolvido Pelo Ifraim Lutónadio Lopes</a>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
