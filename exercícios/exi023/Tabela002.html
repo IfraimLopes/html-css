@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabela</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      table {
+        width: 700px;
+        border-collapse: collapse;
+      }
+
+      td {
+        border: 1px solid black;
+        padding: 8px;
+      }
+
+      thead,
+      tfoot {
+        font-weight: bolder;
+        text-align: center;
+        background-color: gray;
+        color: white; 
+      }
+
+      .num{
+        text-align: right;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Uso de tabelas grandes</h1>
+
+    <table>
+      <thead>
+        <tr>
+          <td>País</td>
+          <td>População</td>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>Angola</td>
+          <td class="num">35,405,823</td>
+        </tr>
+
+        <tr>
+          <td>África do Sul</td>
+          <td class="num">61,081,076</td>
+        </tr>
+
+        <tr>
+          <td>Argélia</td>
+          <td class="num">45,753,509</td>
+        </tr>
+
+        <tr>
+          <td>Benim</td>
+          <td class="num">12,902,012</td>
+        </tr>
+      </tbody>
+
+      <tfoot>
+        <tr>
+          <th>Total de Habitantes</th>
+          <td class="num"><strong>119.736.597</strong></td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
