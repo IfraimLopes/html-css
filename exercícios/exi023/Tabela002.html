@@ -6,14 +6,23 @@
     <title>Tabela</title>
     <style>
       body {
+        font-family: Arial, Helvetica, sans-serif;kjj cmnm
+      }
+      caption {
+        font-weight: bolder;
+        font-size: 1.5em;
+        padding: 4px;
         font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        background-color: rgb(180, 180, 180);
       }
       table {
         width: 700px;
         border-collapse: collapse;
       }
 
-      td {
+      td,
+      th {
         border: 1px solid black;
         padding: 8px;
       }
@@ -23,10 +32,10 @@
         font-weight: bolder;
         text-align: center;
         background-color: gray;
-        color: white; 
+        color: white;
       }
 
-      .num{
+      .num {
         text-align: right;
       }
     </style>
@@ -35,10 +44,13 @@
     <h1>Uso de tabelas grandes</h1>
 
     <table>
+      <caption>
+        Paises Africanos e o número populacional
+      </caption>
       <thead>
         <tr>
-          <td>País</td>
-          <td>População</td>
+          <th scope="col">País</th>
+          <th scope="col" style="width: 50px;">População</th>
         </tr>
       </thead>
 
@@ -66,7 +78,7 @@
 
       <tfoot>
         <tr>
-          <th>Total de Habitantes</th>
+          <th scope="row">Total de Habitantes</th>
           <td class="num"><strong>119.736.597</strong></td>
         </tr>
       </tfoot>
