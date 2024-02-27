@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercícios de Tabela</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      table {
+        width: 500px;
+        border-collapse: collapse;
+      }
+      caption {
+        font-size: 1.5em;
+        font-weight: bolder;
+        padding: 8px;
+      }
+
+      th,
+      td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: center;
+      }
+      col.cnome {
+        background-color: skyblue;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Exercício de Tabela</h1>
+    <table>
+      <colgroup>
+        <col class="cnome" />
+        <col class="csexo" />
+        <col class="cidade" />
+        <col class="cproff" />
+      </colgroup>
+      <caption>
+        Cadastro
+      </caption>
+
+      <tr>
+        <th scope="col">Nome</th>
+        <th scope="col">Sexo</th>
+        <th scope="col">Idade</th>
+        <th scope="col">Profissão</th>
+      </tr>
+
+      <tr>
+        <td class="destaque">Ifraim Lopes</td>
+        <td>M</td>
+        <td>18</td>
+        <td>Jogador</td>
+      </tr>
+
+      <tr>
+        <td>Leonel Messi</td>
+        <td>M</td>
+        <td>38</td>
+        <td>Médico</td>
+      </tr>
+
+      <tr>
+        <td>Luisa Vasco</td>
+        <td>F</td>
+        <td>36</td>
+        <td>Enfermeira</td>
+      </tr>
+
+      <tr>
+        <td>Pauso Sousa</td>
+        <td>M</td>
+        <td>21</td>
+        <td>Segurança</td>
+      </tr>
+
+      <tr>
+        <td>António Henrique</td>
+        <td>M</td>
+        <td>23</td>
+        <td>Lavrador</td>
+      </tr>
+    </table>
+  </body>
+</html>
