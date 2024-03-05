@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário</title>
+  </head>
+  <body>
+    <h1>Exemplo de um Formulário</h1>
+
+    <form action="cadastro.php" method="post" autocomplete="on">
+      <fieldset>
+        <legend>Esportes Favoritos</legend>
+        <input type="checkbox" name="Futebol" id="ifutebol" />
+        <label for="ifutebol">Futebol</label> <br />
+        <input type="checkbox" name="Tennis" id="itennis" />
+        <label for="itennis">Tennis</label> <br />
+        <input type="checkbox" name="Natacao" id="iNatacao" />
+        <label for="iNatacao">Natação</label> <br />
+        <input type="checkbox" name="Andebol" id="iandebol" />
+        <label for="iandebol">Andebol</label> <br />
+        <input type="checkbox" name="Golf" id="igolf" />
+        <label for="igolf">Golf</label> <br />
+      </fieldset>
+
+      <p>
+        <input type="submit" value="Enviar" />
+        <input type="reset" value="Limpar" />
+      </p>
+    </form>
+  </body>
+</html>
