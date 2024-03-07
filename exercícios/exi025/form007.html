@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário</title>
+  </head>
+  <body>
+    <h1>Exemplos de Formulário</h1>
+
+    <form action="cadastro.php" method="get" autocomplete="on">
+      <p>
+        <label for="iprovincias">Províncias</label>
+        <select name="Províncias" id="iprovincias">
+          Províncias
+          <option value="LA">Luanda</option>
+          <option value="UE">UÍGE</option>
+          <option value="BL">Benguela</option>
+        </select>
+      </p>
+      <p>
+        <label for="iprof">Profissão: </label>
+        <input type="text" name="Profissão" id="iprof" list="ifraim" />
+
+        <datalist id="ifraim">
+          <option>Professor</option>
+          <option>Administrador</option>
+          <option>Programador</option>
+          <option>Desenvolvedor</option>
+        </datalist>
+      </p>
+
+      <p>
+        <label for="imsg">Mensagem:</label></p>
+        <textarea name="Mensagem" id="imsg" cols="30" rows="10"></textarea>
+
+
+      <p>
+        <input type="submit" value="Enviar" />
+        <input type="reset" value="Limpar" />
+      </p>
+    </form>
+  </body>
+</html>
