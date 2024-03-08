@@ -28,7 +28,7 @@ header > menu > ul > li {
 
 main > article > h2 {
   padding: 20px;
-  font-weight:bolder;
+  font-weight: bolder;
 }
 
 main > article > p {
@@ -39,4 +39,8 @@ article {
   width: 600px;
   margin: auto;
   display: block;
+  background-color: rgb(24, 34, 37);
+  color: white;
+  border: 2px solid white;
+  margin-top: 20px;
 }
