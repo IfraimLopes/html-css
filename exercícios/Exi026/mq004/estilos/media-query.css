@@ -2,3 +2,124 @@
 
 /*Todas as demais medias*/
 
+/*Typical Device Breakpoints*/
+
+@media print {
+  body {
+    background: url(../imagens/back-print.jpg); /*o background não funcionou, o Findo branco da impressora Pervaleceu*/
+  }
+
+  main {
+    display: block;
+    margin: auto;
+    border: 2px solid black;
+  }
+
+  main::after {
+    content: "Essa impressão Foi criada pelo Ifraim Lutónadio Lopes";
+    font-size: 20px;
+    text-align: center;
+  }
+
+  body > main > h1 {
+    font-family: "Courier New", Courier, monospace;
+    text-shadow: none;
+    color: black;
+  }
+
+  #phone {
+    display: none;
+  }
+  #print {
+    display: block;
+  }
+  #tablet {
+    display: none;
+  }
+  #tv {
+    display: none;
+  }
+  #pc {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+  body {
+    background: url(../imagens/back-tablet.jpg);
+  }
+  img {
+    display: block;
+    margin: auto;
+  }
+
+  #phone {
+    display: block;
+  }
+  #print {
+    display: none;
+  }
+  #tablet {
+    display: block;
+  }
+  #tv {
+    display: none;
+  }
+  #pc {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  body {
+    background: url(../imagens/back-pc.jpg);
+  }
+
+  #phone {
+    display: none;
+  }
+  #print {
+    display: none;
+  }
+  #tablet {
+    display: none;
+  }
+  #tv {
+    display: none;
+  }
+  #pc {
+    display: block;
+  }
+
+  img {
+    display: block;
+    margin: auto;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  body {
+    background: url(../imagens/back-tv.jpg);
+  }
+
+  main {
+    display: block;
+    width: 90wh;
+  }
+
+  #phone {
+    display: none;
+  }
+  #print {
+    display: none;
+  }
+  #tablet {
+    display: none;
+  }
+  #tv {
+    display: block;
+  }
+  #pc {
+    display: none;
+  }
+}
