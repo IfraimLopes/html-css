@@ -12,7 +12,7 @@ body {
 }
 
 header {
-  background-color: gray;
+  background-color: rgb(196, 212, 218);
 }
 
 header > h1 {
@@ -71,4 +71,10 @@ article > p {
   text-align: justify;
   margin-bottom: 10px;
   text-indent: 20px;
+}
+
+@media  screen (min-width:768px) and (max-width:992px) {
+
+    
+    
 }
